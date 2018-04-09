@@ -9,3 +9,6 @@ zuul:
     api-2:
       path: /club/**
       serviceId: wordsegmentation-service
+eureka:
+  client:
+    service-url: http://localhost:8760/eureka/
