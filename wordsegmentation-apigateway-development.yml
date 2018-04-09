@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: wordsegmentation-apigateway
+zuul:
+  routes:
+    api-1:
+      path: /user/**
+      serviceId: wordsegmentation-service
+    api-2:
+      path: /club/**
+      serviceId: wordsegmentation-service
