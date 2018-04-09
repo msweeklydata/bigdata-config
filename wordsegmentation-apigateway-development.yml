@@ -8,7 +8,7 @@ zuul:
       serviceId: wordsegmentation-service
     api-2:
       path: /club/**
-      serviceId: wordsegmentation-service
+      serviceId: emotionanalysis-service
 eureka:
   client:
     serviceUrl:
