@@ -11,4 +11,5 @@ zuul:
       serviceId: wordsegmentation-service
 eureka:
   client:
-    service-url: http://localhost:8760/eureka/
+    serviceUrl:
+      defaultZone: http://localhost:8760/eureka/
