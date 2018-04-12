@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: bigdata-service-apigateway
+zuul:
+  routes:
+    api-1:
+      path: /user/**
+      serviceId: bigdata-segmentation-service
+    api-2:
+      path: /club/**
+      serviceId: bigdata-emotionanalysis-service
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8760/eureka/
