@@ -1,14 +1,14 @@
 spring:
   application:
-    name: wordsegmentation-apigateway
+    name: bigdata-service-apigateway
 zuul:
   routes:
     api-1:
       path: /user/**
-      serviceId: wordsegmentation-service
+      serviceId: bigdata-segmentation-service
     api-2:
       path: /club/**
-      serviceId: emotionanalysis-service
+      serviceId: bigdata-emotionanalysis-service
 eureka:
   client:
     serviceUrl:
