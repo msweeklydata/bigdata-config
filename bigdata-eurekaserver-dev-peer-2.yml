@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: bigdata-eurekaserver
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+  client:
+    service-url: http://localhost:8762/eureka/
