@@ -1,4 +1,8 @@
-spring.application.name=wordsegmentation-service
-spring.datasource.username=dbuser
-spring.datasource.password={cipher}8c41de85ca1c081cea373b801ddf480ab8899067ba8a6b23823905059aa73c7f
-word.segmentation=nlp
+spring:
+  application:
+    name: bigdata-segmentation-service
+  datasource:
+    username: dbuser
+    password: '{cipher}b3bd7b4eeb38bf33b4dc2dec19d4ee0ba4154c4f0ed7c3554448e67c39bee8ab'
+word:
+  segmentation: N
