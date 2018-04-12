@@ -19,7 +19,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: ["bus"]
+        include: ["actuator/bus-refresh"]
 eureka:
   client:
     service-url: 
