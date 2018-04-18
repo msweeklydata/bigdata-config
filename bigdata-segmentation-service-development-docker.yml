@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: bigdata-segmentation-service
+  datasource:
+    username: dbuser
+    password: '{cipher}b3bd7b4eeb38bf33b4dc2dec19d4ee0ba4154c4f0ed7c3554448e67c39bee8ab'
+  # rabbitma 配置
+  rabbitmq:
+    host: 10.252.54.156
+    port: 5672
+    username: guest
+    password: '{cipher}c48b82b13e38331d252a659d35194cf00e8464cca6b64b64d3aae900613a619c'
+  cloud:
+    stream:
+      binders:
+        inventoryQ:
+          destination: inventoryQ
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+eureka:
+  client:
+    service-url: 
+      defaultZone: http://10.252.54.156:8760/eureka/
+word:
+  segmentation: N
