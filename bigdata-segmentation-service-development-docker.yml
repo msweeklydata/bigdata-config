@@ -8,8 +8,8 @@ spring:
   rabbitmq:
     host: 10.252.54.156
     port: 5672
-    username: guest
-    password: '{cipher}c48b82b13e38331d252a659d35194cf00e8464cca6b64b64d3aae900613a619c'
+    username: admin
+    password: admin123
   cloud:
     stream:
       binders:
