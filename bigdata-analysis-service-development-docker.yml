@@ -1,6 +1,6 @@
 spring:
   application:
-    name: bigdata-segmentation-service
+    name: bigdata-analysis-service
   datasource:
     username: dbuser
     password: '{cipher}b3bd7b4eeb38bf33b4dc2dec19d4ee0ba4154c4f0ed7c3554448e67c39bee8ab'
