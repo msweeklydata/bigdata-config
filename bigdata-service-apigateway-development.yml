@@ -8,7 +8,7 @@ zuul:
       serviceId: bigdata-segmentation-service
     api-2:
       path: /club/**
-      serviceId: bigdata-emotionanalysis-service
+      serviceId: bigdata-analysis-service
 eureka:
   client:
     serviceUrl:
