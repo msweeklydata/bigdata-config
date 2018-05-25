@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: bigdata-voice-service
+eureka:
+  client:
+    service-url: 
+      defaultZone: http://localhost:8760/eureka/
+word:
+  segmentation: N
